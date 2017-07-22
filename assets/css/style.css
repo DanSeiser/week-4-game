@@ -1,0 +1,132 @@
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  background:url(../images/BACKGROUND.png) no-repeat center center fixed;
+  background-size:cover;
+  height: 100%
+  min-height:100%;
+
+}
+     
+
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    body {
+        font-size: 1em;
+        h1: 1em;
+        h2: .8em;
+        h3: .6em;
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    body {
+        font-size: .8em;
+        h1: .6em;
+        h2: .4em;
+        h3: .2em;
+        }
+    }
+@media all and (max-width: 500px) { /* screen size until 500px */
+    body {
+        font-size: 0.5em; /* 0.8x default size */
+        }
+    }
+
+
+
+
+#main{
+	min-height: 100%;
+	height: 100%;
+}
+
+#bannerRow{
+	background-color: #000000;
+	height: 10%;
+	background-image: url('../images/BANNER.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto 100%;
+}
+
+#characterRow, #enemyRow, #battlefield{
+	height: 15%;
+}
+
+.character{
+	background-color: #BBBBBB;
+	border: 1px solid black;
+}
+
+.characterImage{
+
+}
+.characterTag{
+	height: 13%;
+	background-color: #BBBBBB;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.labelrow{
+	height: 8%;
+	vertical-align: text-bottom;
+}
+.labeltext{
+	height: 8%;
+	font-weight: bold;
+	vertical-align: text-bottom;
+}
+
+/*
+
+.characterTag{
+	background-color: gray;
+	width: 100%;
+	padding: .3em;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+#main{
+	height: 100%;
+}
+
+
+#main{
+	padding: 50px;
+}
+
+
+.character{
+	border: 3px solid black;
+	text-align: center;
+	padding: 0px;
+	background-color: grey;
+	cursor: pointer;
+}
+
+.characterImage{
+	width: 66%;
+}
+
+
+
+.bannerRow{
+	background-color: black;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+.redborder{
+	border: 3px solid red;
+}
+
+#battlefield, #enemies, #characterRow{
+	height: 20%
+}
+.attack-button{
+	padding: 10px;
+}/*
